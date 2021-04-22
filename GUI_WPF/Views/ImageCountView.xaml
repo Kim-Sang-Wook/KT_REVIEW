@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="GUI_WPF.Views.ImageCountView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:GUI_WPF.Views"
+             mc:Ignorable="d" d:DesignWidth="350">
+    <Grid>
+        <UniformGrid Columns="8" Rows="1">
+            <TextBlock Text="Total"/>
+            <TextBox Text="TOTAL"/>
+            <TextBlock Text="OK"/>
+            <TextBox Text="OK"/>
+            <TextBlock Text="NG"/>
+            <TextBox Text="NG"/>
+            <TextBlock Text="Skip"/>
+            <TextBox Text="Skip"/>
+        </UniformGrid>
+        <Grid Background="Transparent"/>
+    </Grid>
+</UserControl>
